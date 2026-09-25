@@ -14,6 +14,19 @@
   <link rel="stylesheet" href="css/normalize css" />
   <link rel="stylesheet" href="css/styles.css" />
   <body>
-    <input type="text" class="input" placeholder="Enter domain name here..." />
+    <div class="input-group">
+      <snap class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#search"></use>
+        </svg>
+      </snap>
+
+      <input
+        type="text"
+        class="input"
+        placeholder="Enter domain name here..."
+      />
+      <button class="btn btn--accent">Search</button>
+    </div>
   </body>
 </html>
