@@ -316,6 +316,7 @@ font-size: 2.4rem;
     margin-bottom: 2rem;
 }
 
+
 @media screen  and (min-width: 1024px){
     .plan__name{font-size: 1.4rem;
 }
@@ -331,4 +332,21 @@ font-size: 2.4rem;
 .plan__description{
     font-size: 1.7rem;
 }
+}
+
+/* Media */
+.media{
+    display: flex;
+}
+
+.media__title{
+    margin-top: 0;
+}
+
+.media__body{
+    margin: 0 2rem;
+}
+
+.media__image{
+    margin-top: 1rem;
 }
