@@ -1,0 +1,61 @@
+<section class="block container">
+  <header class="block__header">
+    <h2>Host on the Cloud to Keep Growing</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, distinctio!
+    </p>
+  </header>
+  <article class="grid grid--1x2 feature">
+    <div>
+      <snap class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#easy "></use>
+        </svg>
+      </snap>
+      <h3 class="feature__heading">Super Easy t0 Use</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        veniam neque alias nemo? Aut, facere aperiam? Expedita dolorem nobis
+        consequatur.
+      </p>
+      <a href="#" class="link-arrow">LEARN MORE</a>
+    </div>
+    <img class="feature__image" src="images/easy@2x.jpg.jpg" alt="" />
+  </article>
+
+  <article class="grid grid--1x2 feature">
+    <div class="feature__content">
+      <snap class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#settings "></use>
+        </svg>
+      </snap>
+      <h3 class="feature__heading">Simply Fast Websites</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        veniam neque alias nemo? Aut, facere aperiam? Expedita dolorem nobis
+        consequatur.
+      </p>
+      <a href="#" class="link-arrow">LEARN MORE</a>
+    </div>
+    <img class="feature__image" src="images/fast.jpg" alt="" />
+  </article>
+
+  <article class="grid grid--1x2 feature">
+    <div>
+      <snap class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#wordpress "></use>
+        </svg>
+      </snap>
+      <h3 class="feature__heading">Super Easy t0 Use</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        veniam neque alias nemo? Aut, facere aperiam? Expedita dolorem nobis
+        consequatur.
+      </p>
+      <a href="#" class="link-arrow">LEARN MORE</a>
+    </div>
+    <img class="feature__image" src="images/wordpress.jpg" alt="" />
+  </article>
+</section>
