@@ -394,7 +394,7 @@ font-size: 2.4rem;
 /* Media */
 .media{
     display: flex;
-    margin-bottom: 4rems;
+    margin-bottom: 4rem;
 }
 
 .media__title{
@@ -506,7 +506,7 @@ font-size: 2.4rem;
 
 /* Callouts */
 .callout{
-    padding: 4rm;
+    padding: 4rem;
     border-radius: 5px;
 }
 
