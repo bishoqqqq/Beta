@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          "Open Sans",
+          "Helvetica Neue",
+          sans-serif;
+        line-height: 1.5;
+        padding: 1rem;
+      }
+      label {
+        display: block;
+      }
+      input {
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        padding: 0.5rem 0.7rem;
+        outline: 0;
+        transition:
+          border-color 0.15s,
+          box-shadow 0.15s;
+        width: 400px;
+      }
+      input:hover {
+        border-color: dodgerblue;
+        outline: 0;
+        box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+      }
+
+      button {
+        background: #0d6efd;
+        color: #fff;
+        border: 0;
+        padding: 0.5rem 0.7rem;
+        border-radius: 20px;
+        outline: 0;
+      }
+
+      .from-group {
+        margin-bottom: 1rem;
+      }
+
+      img {
+        width: 400px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="from-group">
+        <label for="name">First name</label>
+        <input id="name" type="text" />
+      </div>
+      <div class="from-group">
+        <label for="name">Last name</label>
+        <input id="name" type="text" />
+      </div>
+      <div class="from-group">
+        <label for="name">Other names</label>
+        <input id="name" type="text" />
+      </div>
+      <div class="from-group">
+        <label for="number">Phone number</label>
+        <input id="number" type="number" />
+      </div>
+      <div class="from-group">
+        <label for="email">Email address</label>
+        <input id="email" type="email" />
+      </div>
+      <div class="from-group">
+        <label for="money">Amount</label>
+        <input id="money" type="money" />
+      </div>
+
+      <button type="submit">Register</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <img src="/images/pay.png" alt="" />
+
+    <a href="/index.html"></a>
+  </body>
+</html>
